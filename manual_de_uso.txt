@@ -1,0 +1,53 @@
+Configuração Inicial:
+
+'git config --global user.name "nome"' # Configura o nome do usuário.
+'git config --global user.email "meu@email.com"' # Configura o endereço de e-mail do usuário.
+
+Iniciar um novo repositório:
+
+'git init' # Inicia um novo repositório Git no diretório atual.
+
+Registro de alterações:
+
+'git add <nome do arquivo>' # Adiciona um arquivo específico ao índice (staging area).
+'git add .' ou 'git add --all' # Adiciona todas as alterações ao índice.
+'git commit -m "Mensagem do commit"' # Realiza um commit com as alterações adicionadas ao índice.
+
+Verificar o status:
+
+'git status' # Exibe o estado das alterações como não rastreadas, modificadas ou prontas para commit.
+
+Histórico de commits:
+
+'git log' # Exibe o histórico de commits.
+
+Branches (ramificações):
+
+'git branch' # Lista todas as branches no repositório.
+'git branch <nome da branch>' # Cria uma nova branch.
+'git checkout <nome da branch>' # Muda para uma branch específica.
+'git merge <nome da branch>' # Mescla as alterações de uma branch para outra.
+
+Atualizar e mesclar:
+
+'git pull' # Atualiza o repositório local com as alterações do repositório remoto.
+'git push' # Envia os commits locais para o repositório remoto.
+'git merge <branch>' # Mescla alterações de uma branch para a branch atual.
+
+Desfazer alterações:
+
+'git reset <nome do arquivo>' # Remove um arquivo específico da área de staging.
+'git reset --hard HEAD' # Desfaz todas as alterações locais desde o último commit.
+
+Obter uma cópia de um repositório existente:
+
+'git clone <URL do repositório>' # Clona um repositório remoto para o seu ambiente local.
+
+
+
+
+
+
+
+
+
